@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+}
+.top{
+  background: #22262a;
+  overflow: hidden;
+}
+.wrap{background-color: #f00;
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* wrap*/
+
+.menu_top{
+  float: left;
+  width: 33.33%;
+}
+.menu_top ul{
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+}
+.menu_top li{
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+
+.menu_top li:last-child{
+  margin-right: 0;
+}
+.menu_top a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu_top a:hover{
+  color: #ffc4a0;
+  transition: 0.3s;
+}
+/* menu */
+
+.contacts_top{
+  float: left;
+  width: 33,33%;
+  overflow: hidden;
+  padding-top: 18px;
+}
+.contacts_top a{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+.contacts_top .phone{
+  float: left;
+  margin-right: 30px;
+}
+
+.contacts_top .email{
+  float: left;
+}
+/* contacts_top */
+.other{
+  float: right;
+  width: 33,33%;
+  overflow:hidden;
+  padding-top: 18px;
+}
+.other .location{
+	float: right;
+}
+.other .weather{
+	float: right;
+}
+/* other */
+
+
+
+/* header_center */
