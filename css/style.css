@@ -157,3 +157,252 @@ display: none;
   right: 14px
 }
 /* header_center */
+
+
+.s_seti{
+  float: left;
+}
+.s_seti ul{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.s_seti li{
+  float: right;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  margin: 0 10px;
+  background: #e0e0e0;
+  position: relative;
+}
+.s_seti li:hover{
+  background: #eebf98;
+  transition: 0.5s;
+}
+.s_seti i{
+  margin-right: 10px;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  right: 3px;
+  margin-top: -7.5px; 
+}
+
+.hader_menu{
+  border-top: 1px solid #c9c9c9;
+  padding: 15px 0px;
+}
+.hader_menu a, 
+.hader_menu span{
+  text-decoration: none;
+  color: #000;
+  padding: 10px;  
+  display: block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu{
+  float: right;
+  z-index: 1;
+}
+.menu ul{ 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu li{
+  float: left;
+  font-size: 20px;
+}
+.menu li:last-child a{
+  margin-right: 0;
+}
+.menu li.active a,
+.menu li:hover a{
+  color: #dd711f;
+  transition: 0.4s;
+}
+.menu li .active span,
+.menu li:hover span{
+  color: #dd711f;
+  transition: 0.4s;
+}
+.menu span i{
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+.menu ul ul{
+  position: absolute;
+  background-color: rgb(208, 208, 208);
+  width: 150px;
+  display: none;
+}
+.menu ul ul ul a{
+  color: #000;
+}
+.menu ul ul li{
+  float: none;
+  position: relative;
+}
+.menu li:hover > ul{
+  display: block;
+}
+.menu ul ul ul{
+  left: 100%;
+  background-color: rgb(208, 208, 208);
+  top: 0;
+  border-left: 2px solid rgb(65, 65, 65);
+}
+
+
+
+/* hader_menu */
+
+
+.news_top{
+  background: #f0f0f0;
+  padding-top: 50px;
+}
+.news_top .categories{
+  width: 65%;
+  height: 600px;
+  float: left;
+  overflow: hidden;
+}
+.news_top .posts{
+	width: 35%;
+  height: 600px;
+	float: right;
+  background-color: blue;
+}
+
+.news_top .simple_categories{
+	float: left;
+	width: 35%;
+}
+.news_top .main_category{
+	float: right;
+	width: 60%;
+  height: 700px;
+}
+.news_top .simple_category{
+	display: block;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	background-size: cover;
+	border-radius: 13px;
+	position: relative;
+}
+
+.news_top .simple_category:hover::before{
+	opacity: 1;
+}
+.news_top .simple_category:hover > div{
+	opacity: 1;
+}
+.news_top .simple_category:before{
+	content: '';
+	position: absolute;
+	z-index: 1;
+	display: block;
+	background-color: rgba(0,0,0,0.7);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 13px;
+	opacity: 0;
+	transition: 1s ease;
+}
+.news_top .simple_category > div{
+	padding: 30px 20px;
+	overflow: hidden;
+	z-index: 2;
+	position: relative;
+	opacity: 0;
+	transition: 1s ease;
+}
+.news_top .simple_category span{
+	font-size: 30px;
+	color: #fff;
+	float: left;
+	margin-top: 5px;
+}
+.news_top .simple_category i{
+	color: #fff;
+	font-size: 20px;
+	border-radius: 50%;
+	background: #ffc4a0;
+	padding: 10px;
+	float: right;
+}
+
+.simple_categories ul{
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+.simple_categories li{
+  margin-top: 30px;
+}
+
+
+
+.news_top .main_category_front{
+	display: block;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	background-size: cover;
+	border-radius: 13px;
+	position: relative;
+  margin-top: 29px;
+}
+
+.news_top .main_category_front:hover::before{
+	opacity: 1;
+}
+.news_top .main_category_front:hover > div{
+	opacity: 1;
+}
+.news_top .main_category_front:before{
+	content: '';
+	position: absolute;
+	z-index: 3;
+	display: block;
+	background-color: rgba(0,0,0,0.7);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 13px;
+	opacity: 0;
+	transition: 1s ease;
+}
+.news_top .main_category_front > div{
+	padding: 186px 20px;
+	overflow: hidden;
+	z-index: 4;
+	position: relative;
+	opacity: 0;
+	transition: 1s ease;
+}
+.news_top .main_category_front span{
+	font-size: 100px;
+	color: #fff;
+	float: left;
+	margin-top: 5px;
+  margin-left: 30px;
+}
+.news_top .main_category_front i{
+	color: #fff;
+	font-size: 60px;
+	border-radius: 50%;
+	background: #ffc4a0;
+	padding: 10px;
+	float: right;
+  margin-top: 25px;
+}
