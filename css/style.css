@@ -269,13 +269,13 @@ display: none;
 }
 .news_top .categories{
   width: 65%;
-  height: 600px;
+  height: 700px;
   float: left;
   overflow: hidden;
 }
 .news_top .posts{
 	width: 35%;
-  height: 600px;
+  height: 700px;
 	float: right;
   background-color: blue;
 }
